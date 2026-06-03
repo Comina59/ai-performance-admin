@@ -6,16 +6,16 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://localhost:3306/ry-vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-                username: root
-                password: password
+                url: jdbc:mysql://192.168.144.66:44996/ai_performance?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&nullDatabaseMeansCurrent=true&connectTimeout=60000&socketTimeout=60000
+                username: hr_talent
+                password: e6PXvNo%fl
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
                 enabled: false
-                url: 
-                username: 
-                password: 
+                url: jdbc:mysql://192.168.144.66:44996/ai_performance?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&nullDatabaseMeansCurrent=true&connectTimeout=60000&socketTimeout=60000
+                username: hr_talent
+                password: e6PXvNo%fl
             # 初始连接数
             initialSize: 5
             # 最小连接池数量
