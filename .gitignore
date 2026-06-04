@@ -45,9 +45,7 @@ nbdist/
 !*/build/*.java
 !*/build/*.html
 !*/build/*.xml
-AGENTS.md
+.codefree-o/commands
+.opencode/commands
 codefree.json
 opencode.json
-.codefree
-.codefree-o
-.opencode
